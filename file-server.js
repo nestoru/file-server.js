@@ -21,7 +21,8 @@ var docroot = "";
 var app = express();
 
 //serve all content starting at this directory
-app.use('/', serveIndex(__dirname + docroot, {'icons': true}))
+app.use('/', serveIndex(__dirname + docroot, {'icons': true}));
+app.use(express.static(__dirname + docroot)); 
 
 //start serving content
 app.listen(port);
