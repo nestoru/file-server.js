@@ -15,3 +15,4 @@ npm install
 cd /directory/to/be/shared/via/http
 ./file-server.js
 ```
+Now you can access your file using http://localhost:3080/ or share then with others using your domain or IP instead of localhost.
