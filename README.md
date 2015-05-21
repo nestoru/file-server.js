@@ -4,8 +4,8 @@ File Server using nodejs
 ## Installation
 ```bash
 cd /directory/to/be/shared/via/http
-wget file-server.js
-wget package.json
+curl -O https://raw.githubusercontent.com/nestoru/file-server.js/master/file-server.js
+curl -O https://raw.githubusercontent.com/nestoru/file-server.js/master/package.json
 chmod +x file-server.js
 npm install
 ```
